@@ -165,4 +165,20 @@
     font-size: 14px;
 }
 
+.see-more {
+	display: flex;
+	align-items: center;
+	justify-content: right;
+    color: rgba(224, 44, 109, 0.87);
+    gap: 8px;
+    size: 16px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    filter: none;
+}
+
 /* Influencer section  end */
+
+/*  */
+
