@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,600;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* buttonn */
+.primary-btn {
+    background-color: rgba(224, 44, 109, 1);
+    padding: 10px 24px;
+    height: 44px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 41px;
+    border: 0;
+}
+
+.primary-btn-2 {
+    background-color: rgba(224, 44, 109, 1);
+    padding: 10px 24px;
+    height: 44px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 16px;
+
+    border: 0;
+}
+
+
+/* influencer-img-part */
+
+.influencer-thumbnail .camera {
+    width: 440px;
+    height: 414px;
+}
+
+.influencer-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 133px;
+}
+
+.influencer-content {
+	width: 582px;
+}
+
+.influencer-content .influencer-title {
+	font-weight: 700;
+	font-size: 52px;
+	color: #3A3A3A;
+    line-height: 70px;
+}
+
+.influencer-content .influencer-description {
+	font-size: 16px;
+	font-weight: 600;
+	color: #3A3A3A;
+	margin-top: 16px;
+	margin-bottom: 16px;
+    list-style: 24px;
+}
+
+
+/* influencer-img-part end */
+
+
+/*Iconic-image-part start  */
+
+.img-icon {
+	
+}
+
+.img-icon img {
+	margin-left: 61px;
+    width: 91px;
+    height: 38px;
+}
+
+.iconic-image-sec {
+	border: 3px solid rgba(192, 204, 218, 0.1);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	width: 1110px;
+	height: 110px;
+	display: flex;
+	margin: 0 auto;
+	align-items: center;
+	margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/*Iconic-image-part end   */
+
+
+/* Influencer section */
+
+.popular-info span{
+    font-size: 14px;
+}
+
+.fa-star.filled {
+	font-size: 14px;
+	color: yellow;
+}
+
+.fa-star.empty {
+	color: #ddd;
+}
+
+.popular-title {
+	margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.popular-detail .price{
+    margin-bottom: 12px;
+    font-size: 24px;
+}
+
+.popular-image-section {
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 1047px;
+    margin: 0 auto;
+}
+
+.section-title {
+	
+	display: flex;
+	justify-content: center;
+    margin-bottom: 30px;
+    
+}
+
+.popular-thumb {
+	margin-bottom: 16px;
+}
+
+.popular-thumb img{
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+}
+
+.popular-collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+    column-gap: 30px;
+}
+
+.collection {
+	
+	background: #FFFFFF;
+	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+	border-radius: 5px;
+	padding: 15px;
+}
+
+.popular-description{
+    width: 196px;
+    font-size: 14px;
+}
+
+/* Influencer section  end */
