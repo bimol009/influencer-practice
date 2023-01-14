@@ -1,0 +1,70 @@
+@media screen and (max-width:576px) {
+
+   /* Influencer-img-part */
+   
+    .influencer-detail {
+        
+        flex-direction: column-reverse;
+       width: 100%;
+    }
+
+    .influencer-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .influencer-thumbnail .camera{
+        width: 100%;
+    }
+
+    /* Iconic-image-part start */
+
+    .iconic-image-sec{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .popular-collection {
+        
+        grid-template-columns: 1fr;
+       
+        
+    }
+
+    .see-more{
+        justify-content: left;
+    }
+
+    .img-content {
+       
+        flex-direction: column-reverse;
+        
+        
+    
+    }
+    .content-part {
+        text-align: center;
+    }
+
+    .imgae-conent-part{
+        width: 100%;
+    }
+
+    .menu-sec{
+        display: none;
+    }
+
+    .nav-section {
+      
+     width: 100%;
+        justify-content: center;
+    }
+
+    .img-part .image {
+        /* width: 404px; */
+        /* height: 270px; */
+        width: 100%;
+    }
+
+  
+
+}

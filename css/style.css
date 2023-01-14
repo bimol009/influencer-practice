@@ -7,6 +7,8 @@
 }
 
 
+
+
 /* buttonn */
 .primary-btn {
     background-color: rgba(224, 44, 109, 1);
@@ -40,6 +42,7 @@
     width: 1110px;
     margin: 0 auto;
     padding: 60px 0;
+    
 }
 
 .menu-sec li {
@@ -114,11 +117,15 @@
 }
 
 .iconic-image-sec {
+	display: grid;
+	grid-template-columns: repeat(1,1fr);
+}
+.iconic-image-sec {
     border: 3px solid rgba(192, 204, 218, 0.1);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     width: 1110px;
     height: 110px;
-    display: flex;
+   
     margin: 0 auto;
     align-items: center;
     margin-top: 100px;
